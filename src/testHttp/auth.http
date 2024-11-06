@@ -1,0 +1,9 @@
+@url = https://8080-giogiuseppe-apitarefas-ayqjdh7ix2z.ws-us116.gitpod.io
+
+POST {{url}}/auth
+Content-Type: application/json
+
+{
+    "nome": "admin",
+    "senha": "admin"
+}

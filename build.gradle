@@ -17,4 +17,6 @@ dependencies {
 	implementation 'mysql:mysql-connector-java:8.0.33'
 	implementation 'jakarta.servlet.jsp.jstl:jakarta.servlet.jsp.jstl-api:3.0.0'
 	implementation 'org.glassfish.web:jakarta.servlet.jsp.jstl:3.0.1'
+	implementation 'org.springframework.boot:spring-boot-starter-security:3.3.5'
+	implementation 'com.auth0:java-jwt:4.4.0'
 }
