@@ -1,0 +1,33 @@
+@url = http://localhost:8080
+
+@token =
+
+###
+GET {{url}}/colaboradores
+Authorization: Bearer {{token}}
+
+###
+GET {{url}}/colaboradores/1
+Authorization: Bearer {{token}}
+
+###
+POST {{url}}/colaboradores
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "nome": "Nome XYZ"
+}
+
+###
+PUT {{url}}/colaboradores/1
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+    "titulo": "Título XYZ  - Alterado"
+}
+
+###
+DELETE {{url}}/colaboradores/1
+Authorization: Bearer {{token}}

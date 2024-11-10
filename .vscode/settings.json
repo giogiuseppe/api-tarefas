@@ -8,5 +8,6 @@
         ".gitignore": true,
         ".gitpod.yml": true,
         "build": true,
-    }
+    },
+    "java.configuration.updateBuildConfiguration": "interactive"
 }
