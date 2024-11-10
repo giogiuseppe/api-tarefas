@@ -1,0 +1,12 @@
+{
+    "java.server.launchMode": "Standard",
+    "files.exclude": {
+        ".devcontainer": true,
+        ".github": true,
+        ".gradle": true,
+        ".vscode": true,
+        ".gitignore": true,
+        ".gitpod.yml": true,
+        "build": true,
+    }
+}
